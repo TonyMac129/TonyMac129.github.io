@@ -72,6 +72,8 @@
   height: 130px;
   padding-bottom: 10px;
   transition: transform 0.3s ease;
+   background-repeat: no-repeat;
+  background-size:contain;
 }
 
 .game:hover {
@@ -101,6 +103,5 @@ hr {
 
 #game1 {
   background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('Games/1/thumbnail.png');
-  background-repeat: no-repeat;
-  background-size:contain;
+ 
 }

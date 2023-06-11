@@ -107,5 +107,13 @@ hr {
 }
 
 #game2 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/1v1lol/splash.png');
+}
+
+#game3 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/1v1space/splash.png');
+}
+
+#game4 {
   background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/10-minutes-till-dawn/media.png');
 }

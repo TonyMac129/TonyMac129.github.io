@@ -102,6 +102,10 @@ hr {
 }
 
 #game1 {
-  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('Games/1/thumbnail.png');
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/1/meta/apple-touch-icon.png');
  
+}
+
+#game2 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/10-minutes-till-dawn/media.png');
 }

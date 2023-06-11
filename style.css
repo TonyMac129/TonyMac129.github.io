@@ -29,6 +29,7 @@
   position: -webkit-sticky;
   top: 0;
   text-align: center;
+  z-index:10000000;
 }
 
 .nav a {

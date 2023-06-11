@@ -117,3 +117,7 @@ hr {
 #game4 {
   background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/10-minutes-till-dawn/media.png');
 }
+
+#game5 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/100ng/100ng.jpg');
+}

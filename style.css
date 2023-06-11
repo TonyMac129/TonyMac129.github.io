@@ -65,7 +65,7 @@
   width: 130px;
   background-color: gray;
   color: white;
-  padding-inline: 50px;
+  padding-inline: 20px;
   font-weight: bold;
   text-decoration: none;
   text-align: center;
@@ -141,4 +141,44 @@ hr {
 
 #game10 {
   background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/adarkroom/splash.png');
+}
+
+#game11 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/adrenalinechallenge/adrenalinechallenge.jpg');
+}
+
+#game12 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/adventure-drivers/splash.png');
+}
+
+#game13 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/ages-of-conflict/splash.jpg');
+}
+
+#game14 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/alienhominid/alienhominid.jpg');
+}
+
+#game15 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/amidst-the-clouds/splash.png');
+}
+
+#game16 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/among-us/red.png');
+}
+
+#game17 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/angry-sharks/assets/favicon/icon-512x512.png');
+}
+
+#game18 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/aquapark-slides/splash.png');
+}
+
+#game19 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/avalanche/avalanche.png');
+}
+
+#game20 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/backrooms/img/splash.jpg');
 }

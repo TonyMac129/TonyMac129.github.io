@@ -122,3 +122,23 @@ hr {
 #game5 {
   background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/100ng/100ng.jpg');
 }
+
+#game6 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/2048/thumb.png');
+}
+
+#game7 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/2048-multitask/splash.png');
+}
+
+#game8 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/9007199254740992/logo-4.png');
+}
+
+#game9 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/achievementunlocked/achievementunlocked.png');
+}
+
+#game10 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/adarkroom/splash.png');
+}

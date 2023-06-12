@@ -102,6 +102,10 @@ hr {
   border-radius: 20px;
 }
 
+.game-link {
+  display:none;
+}
+
 #game1 {
   background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/1/meta/apple-touch-icon.png');
  
@@ -381,4 +385,126 @@ hr {
 
 #game70 {
   background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/DogeMiner/img/dogeminer_300x300.png');
+}
+
+#game71 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/doodle-jump/doodle.png');
+}
+
+#game72 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/doublewires/doublewires.png');
+}
+
+#game73 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/dragon-vs-bricks/icon.jpg');
+}
+
+#game74 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/draw-the-hill/icons/icon-512.png');
+}
+
+#game75 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/drive-mad/logo.jpg');
+}
+
+#game76 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/ducklife1/ducklife.png');
+}
+
+#game77 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/ducklife2/ducklife2.png');
+}
+
+#game78 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/ducklife3/duck.png');
+}
+
+#game79 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/ducklife4/splash.jpg');
+}
+
+#game80 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/edge-surf/splash.png');
+}
+
+
+#game81 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/edgenotfound/edge.png');
+}
+
+#game82 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/eel-slap/eel-slap.png');
+}
+
+#game83 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/elasticman/elasticman.jpg');
+}
+
+#game84 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/endlesswar3/endlesswar3.png');
+}
+
+#game85 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/escapingtheprison/escapingtheprison.jpg');
+}
+
+#game86 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/evil-glitch/evil.png');
+}
+
+#game87 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/evolution/splash.png');
+}
+
+#game88 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/exo/img/small.jpg');
+}
+
+#game89 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/factoryballs/images/splash.png');
+}
+
+#game90 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/fancypantsadventures/fancypantsadventure.png');
+}
+
+
+#game91 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/fake-virus/icon.png');
+}
+
+#game92 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/fireboywatergirlforesttemple/logo.jpeg');
+}
+
+#game93 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/flappy-2048/meta/apple-touch-icon.png');
+}
+
+#game94 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/flappy-bird/assets/thumb.png');
+}
+
+#game95 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/flashtetris/flashtetris.png');
+}
+
+#game96 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/flippy-fish/2022_10_28_0jt_Kleki.png');
+}
+
+#game97 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/fnaw/splash.png');
+}
+
+#game98 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/fridaynightfunkin/fnf-icon.jpg');
+}
+
+#game99 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/froggys-battle/splash.png');
+}
+
+#game100 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/fruitninja/FruitNinjaTeaser.jpg');
 }

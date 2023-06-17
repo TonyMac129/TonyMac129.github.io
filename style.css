@@ -6,6 +6,24 @@
   background-color: rgb(43, 43, 43);
 }
 
+#searchInput {
+  outline: none;
+  border: 3px solid rgb(43, 43, 43);
+  padding-inline: 2.5%;
+  background-color: white;
+  padding-block: 10px;
+  font-size: 18px;
+  border-radius: 50px;
+  width: 30%;
+  margin-inline: 35%;
+  margin-bottom: 20px;
+  transition: border 0.5s ease;
+}
+
+#searchInput:focus {
+  border: 3px solid rgb(240, 182, 9);
+}
+
 .homeheader {
   color: white;
   padding-top:20px;  
@@ -58,19 +76,19 @@
 .game {
   display: flex;
   justify-content: center;
-  align-items:end;
-  font-size: 17px;
+  align-items: end;
+  font-size: 14px;
   margin-inline: 6px;
   margin-block: 5px;
-  width: 130px;
+  width: 110px;
   background-color: gray;
   color: white;
-  padding-inline: 20px;
+  padding-inline: 10px;
   font-weight: bold;
   text-decoration: none;
   text-align: center;
   border-radius: 20px;
-  height: 130px;
+  height: 110px;
   padding-bottom: 10px;
   transition: transform 0.3s ease;
    background-repeat: no-repeat;
@@ -78,7 +96,7 @@
 }
 
 .game:hover {
-  transform: scale(1.1);
+  transform: scale(1.08);
 }
 
 h2 {
@@ -507,4 +525,410 @@ hr {
 
 #game100 {
   background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/fruitninja/FruitNinjaTeaser.jpg');
+}
+
+#game101 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/frying-nemo/splash.png');
+}
+
+#game102 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/game-inside/img/display.png');
+}
+
+#game103 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/generic-fishing-game/splash.png');
+}
+
+#game104 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/geodash/geoscratchicon.png');
+}
+
+#game105 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/georgeandtheprinter/img/SnDTEn.png');
+}
+
+#game106 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/getaway-shootout/img/images.jpg');
+}
+
+#game107 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/gimme-the-airpod/img/logo.png');
+}
+
+#game108 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/glass-city/image.png');
+}
+
+#game109 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/go-ball/game.jpg');
+}
+
+#game110 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/goodnight/goodnight.jpg');
+}
+
+
+#game111 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/google-feud/splash.png');
+}
+
+#game112 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/google-snake/img/snake.png');
+}
+
+#game113 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/gravity-soccer/splash.png');
+}
+
+#game114 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/greybox/ico.png');
+}
+
+#game115 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/grindcraft/img/splash.png');
+}
+
+#game116 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/hackertype/logo192.png');
+}
+
+#game117 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/handshakes/splaher.png');
+}
+
+#game118 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/happy-hop/splash.png');
+}
+
+#game119 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/hba/hoverbotarena.JPG');
+}
+
+#game120 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/helicopter/helicopter.png');
+}
+
+
+#game121 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/hexempire/hexempire.jpg');
+}
+
+#game122 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/HexGL/Hexgl-image-1.jpg');
+}
+
+#game123 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/hextris/images/hextris-logo.png');
+}
+
+#game124 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/hungry-lamu/splash.png');
+}
+
+#game125 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/idle-breakout/img/thumbnail.png');
+}
+
+#game126 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/idle-shark/img/sharkgame.png');
+}
+
+#game127 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/impossiblequiz/impossiblequiz.png');
+}
+
+#game128 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/interactivebuddy/interactivebuddy.jpg');
+}
+
+#game129 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/jetpack-joyride/splash.jpg');
+}
+
+#game130 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/just-fall/unnamed.png');
+}
+
+#game131 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/just-one-boss/pv1Gr5.png');
+}
+
+#game132 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/kitchen-gun-game/splash.png');
+}
+
+#game133 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/kittencannon/kittencannon.png');
+}
+
+#game134 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/knife-master/512x512.jpg');
+}
+
+#game135 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/krunker/img/krunker-io.jpg');
+}
+
+#game136 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/learntofly/learntofly.png');
+}
+
+#game137 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/learntofly2/learn-to-fly-2.jpg');
+}
+
+#game138 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/madalin-stunt-cars-2/img/logo.jpg');
+}
+
+#game139 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/madalin-stunt-cars-3/img/index.jpg');
+}
+
+#game140 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/mario/Theme/Mario.gif');
+}
+
+
+
+#game141 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/marvinspectrum/marvinspectrum.png');
+}
+
+#game142 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/matrixrampage/matrixrampage.jpg');
+}
+
+#game143 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/meme2048/img/rickroll.gif');
+}
+
+#game144 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/merge-round-racers/splash.png');
+}
+
+#game145 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/mineblocks/splash.png');
+}
+
+#game146 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/minecraft-15/splash.jpeg');
+}
+
+#game147 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/minecraft-18/splash.png');
+}
+
+#game148 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/minecraft-classic/pack.png');
+}
+
+#game149 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/minecraftbeta/bg_main.png');
+}
+
+#game150 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/minesweeper/img/minesweeper.png');
+}
+
+#game151 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/miniputt/miniputt.png');
+}
+
+#game152 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/missiles/miss.png');
+}
+
+#game153 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/motox3m/splash.jpg');
+}
+
+#game154 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/motox3m/splash.jpg');
+}
+
+#game155 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/motox3m-pool/splash.jpg');
+}
+
+#game156 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/motox3m-spooky/splash.jpeg');
+}
+
+#game157 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/motox3m-winter/download.jpeg');
+}
+
+#game158 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/my-rusty-submarine/splash.png');
+}
+
+#game159 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/n-gon/bot.png');
+}
+
+#game160 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/ninja/logo1.png');
+}
+
+
+#game161 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/ninjavsevilcorp/splash.png');
+}
+
+#game162 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/noob-steve-parkour/512x512.jpg');
+}
+
+#game163 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/ns-shaft/favicon.png');
+}
+
+#game164 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/OfflineParadise/assets/icon.jpeg');
+}
+
+#game165 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/om-bounce/assets/icon.jpeg');
+}
+
+#game166 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/ovo/ovo.png');
+}
+
+#game167 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/pandemic2/pandemic2.png');
+}
+
+#game168 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/papasburgeria/splash.jpg');
+}
+
+#game169 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/papaspizzaria/papaspizzaria.jpg');
+}
+
+#game170 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/paperio2/images/icon512.png');
+}
+
+
+#game171 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/papery-planes/splash.jpg');
+}
+
+#game172 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/particle-clicker/assets/mobile/original.png');
+}
+
+#game173 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/pixel-gun-survival/512x512.png');
+}
+
+#game174 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/polybranch/img/pic1.png');
+}
+
+#game175 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/popcat-classic/splash.png');
+}
+
+#game176 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/portalflash/portaltheflashversion.jpg');
+}
+
+#game177 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/precision-client/logo.png');
+}
+
+#game178 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/protektor/splash.jpg');
+}
+
+#game179 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/push-the-square/img/splash.png');
+}
+
+#game180 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/push-your-luck/assets/img/push.png');
+}
+
+#game181 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/rabbit-samurai/splash.png');
+}
+
+#game182 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/rabbit-samurai2/splash.png');
+}
+
+#game183 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/resent-client/splash.jpg');
+}
+
+#game184 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/retro-bowl/img/icon.jpg');
+}
+
+#game185 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/riddleschool/riddleschool.png');
+}
+
+#game186 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/riddleschool2/riddleschool2.png');
+}
+
+#game187 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/riddleschool3/riddleschool3.png');
+}
+
+#game188 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/riddleschool4/riddleschool4.png');
+}
+
+#game189 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/riddleschool5/riddleschool5.png');
+}
+
+#game190 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/riddletransfer/riddletransfer.png');
+}
+
+#game191 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/riddletransfer2/riddletransfer2.png');
+}
+
+#game192 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/rolling-forests/icon.png');
+}
+
+#game193 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/rolly-vortex/icon-256.png');
+}
+
+#game194 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/rooftop-snipers/img/preview.png');
+}
+
+#game195 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/ruffle/splash.png');
+}
+
+#game196 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/sandboxels/sandboxels.jpg');
+}
+
+#game197 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/santy-is-home/splash.png');
+}
+
+#game198 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/sand-game/sand.png');
+}
+
+#game199 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/scrapmetal/img/splash.png');
+}
+
+#game200 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/shellshockers/img/favicon.jpg');
 }

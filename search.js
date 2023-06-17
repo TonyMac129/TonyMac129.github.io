@@ -1,15 +1,17 @@
-function startSearch() {
-  var input, filter, ul, li, a, i;
-  input = document.getElementById("mySearch");
-  filter = input.value.toUpperCase();
-  ul = document.getElementById("search");
-  li = ul.getElementsByTagName("a");
-  for (i = 0; i < li.length; i++) {
-    a = li[i].getElementsByTagName("h1")[0];
-    if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
-      li[i].style.display = "";
+function search() {
+  var searchTerm = document.getElementById('searchInput').value.toLowerCase();
+  var list = document.getElementById('list');
+  var items = list.getElementsByTagName('a');
+
+  for (var i = 0; i < items.length; i++) {
+    var item = items[i];
+    var itemText = item.innerText.toLowerCase();
+    
+    if (itemText.includes(searchTerm)) {
+      item.style.display = 'flex'; // Show the anchor tag
     } else {
-      li[i].style.display = "none";
+      item.style.display = 'none'; // Hide the anchor tag
     }
   }
+  
 }

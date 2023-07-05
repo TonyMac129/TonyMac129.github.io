@@ -42,7 +42,6 @@
 
 .nav {
   background-color: black;
-  padding-block: 12px;
   position: sticky;
   position: -webkit-sticky;
   top: 0;
@@ -50,7 +49,23 @@
   z-index:10000000;
 }
 
-.nav a {
+.fix {
+  display: inline-block;
+  padding-block: 12px;
+  width: 100px;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0;
+  color: white;
+  background-color: transparent;
+}
+
+.fix:hover {
+  background-color: rgb(60, 60, 60);
+}
+
+#feedback {
   color: white;
   text-decoration: none;
   background-color: black;
@@ -62,8 +77,8 @@
   border-radius: 50px;
 }
 
-.nav a:hover {
-  background-color: rgb(43, 43, 43);
+#feedback:hover {
+  background-color: rgb(60, 60, 60);
 }
 
 .games-container {
@@ -120,9 +135,6 @@ hr {
   border-radius: 20px;
 }
 
-.game-link {
-  display:none;
-}
 
 #game1 {
   background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/1/meta/apple-touch-icon.png');

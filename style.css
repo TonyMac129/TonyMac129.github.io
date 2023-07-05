@@ -109,7 +109,7 @@
    background-repeat: no-repeat;
   background-size:contain;
 }
-
+ 
 .game:hover {
   transform: scale(1.08);
 }

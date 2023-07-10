@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>More | TonyMac129</title>
+  <title class="cloak">More | TonyMac129</title>
   <link href="style.css" rel="stylesheet" />
   <link rel="shortcut icon" href="icons/homeicon.png" type="image/x-icon">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
@@ -12,6 +12,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <script src="cloaker.js"></script>
 </head>
  
 <body>
@@ -38,6 +39,18 @@
       <h2>
         Settings
       </h2>
+      <form action="" id="cloaker">
+        <input type="text" id="name" placeholder="Rename the tab!">
+        <button onclick="cloaking()" id="go" type="submit">Go!</button>
+      </form>
+      <form action="" id="clform">
+        <button onclick="google()" class="clbtn">Google</button>
+        <button onclick="canva()" class="clbtn">Canva</button>
+        <button onclick="clever()" class="clbtn">Clever</button>
+        <button onclick="schoology()" class="clbtn">Schoology</button>
+        <button onclick="newTab()" class="clbtn">New Tab</button>
+      </form>
+      
     </section>
     <hr>  
     <section>
@@ -116,7 +129,7 @@
       </ul>
       <hr>
       <h4 style="text-align:center; color:white; padding-top: 10px;">
-        v1.0 | 7/5/23<br><br>First completed stable version of this game website!
+        v0.10 | 7/5/23
       </h4>
       <ul style="margin-inline:25%; width:50%; color:white; text-decoration:none; font-size:20px">
         <li>🔼 Edited and catagorized every game into the action, strategy, sports, and casual games catagories.</li>
@@ -125,7 +138,22 @@
         <li>⏺️ Fixed issues and bugs.</li>
         <li>⏺️ Overall improvements update.</li>
       </ul>
+      <hr><h4 style="text-align:center; color:white; padding-top: 10px;">
+        v0.11 | 7/10/23
+      </h4>
+      <ul style="margin-inline:25%; width:50%; color:white; text-decoration:none; font-size:20px">
+        <li>🔼 Added the Tab Cloaker feature.</li>
+        <li>🔼 Added brief introductions on each catagory page.</li>
+        <li>⏺️ Updated appearance.</li>
+        <li>⏺️ Updated Settings section on the More page.</li>
+        <li>⏺️ Fixed some issues and bugs.</li>
+      </ul>
       <hr>
+
+
+
+      <hr>
+      <br><br>First completed stable version of this game website!
 
     </section>
     <style>

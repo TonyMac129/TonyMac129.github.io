@@ -81,6 +81,88 @@
   background-color: rgb(60, 60, 60);
 }
 
+#name {
+  outline: none;
+  border: 3px solid rgb(43, 43, 43);
+  padding-inline: 2.5%;
+  background-color: white;
+  padding-block: 10px;
+  font-size: 18px;
+  border-radius: 50px;
+  width: 43%;
+  margin-bottom: 0px;
+  transition: border 0.5s ease;
+}
+
+#name:focus {
+  border: 3px solid rgb(240, 182, 9);
+}
+
+#cloaker {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+
+#go {
+  outline: none;
+  border: 3px solid rgb(43, 43, 43);
+  background-color: white;
+  padding-block: 10px;
+  font-size: 18px;
+  border-radius: 50px;
+  width: 5%;
+  margin-bottom: 00px;
+  transition: border 0.5s ease;
+  margin-left: 1%;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+#go:hover {
+  transform: scale(1.1);
+}
+
+#go:focus {
+  border: 3px solid rgb(240, 182, 9);
+}
+
+#clform {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clbtn {
+  outline: none;
+  border: 3px solid rgb(43, 43, 43);
+  background-color: white;
+  padding-block: 10px;
+  font-size: 18px;
+  border-radius: 50px;
+  width: 9%;
+  text-align: center;
+  margin-bottom: 20px;
+  transition: border 0.5s ease;
+  margin-inline: 0.5%;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.clbtn:hover {
+  transform: scale(1.1);
+}
+
+.clbtn:focus {
+  border: 3px solid rgb(240, 182, 9);
+}
+
+#go {
+  background-color: white;
+}
+
 .games-container {
   display: flex;
   flex-wrap: wrap;
@@ -109,7 +191,7 @@
    background-repeat: no-repeat;
   background-size:contain;
 }
- 
+
 .game:hover {
   transform: scale(1.08);
 }

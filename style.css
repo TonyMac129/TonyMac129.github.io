@@ -1361,3 +1361,7 @@ hr {
   background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/zombs-royale/zomb.png');
 }
 
+#game300 {
+  background-image: linear-gradient(rgba(40, 40, 40, 0.2), rgba(40, 40, 40, 0.85)) ,url('projects/moon/Splash.jpg');
+}
+

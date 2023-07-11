@@ -1,7 +1,7 @@
 /* Get the documentElement (<html>) to display the page in fullscreen */
 var elem = document.documentElement;
 const button = document.querySelector(".full-screen");
-
+ 
 /* View in fullscreen */
 
 function openFullscreen() {

@@ -1,7 +1,7 @@
 function cloaking(){
   const name = document.getElementById("name").value;
   localStorage.cloak = name;
-}
+} 
 function google() {
   localStorage.cloak = "Google"
 }

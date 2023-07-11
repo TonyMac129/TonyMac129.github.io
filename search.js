@@ -2,7 +2,7 @@ function search() {
   var searchTerm = document.getElementById('searchInput').value.toLowerCase();
   var list = document.getElementById('list');
   var items = list.getElementsByTagName('a');
-
+ 
   for (var i = 0; i < items.length; i++) {
     var item = items[i];
     var itemText = item.innerText.toLowerCase();
